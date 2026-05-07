@@ -98,12 +98,22 @@ st.markdown("---")
 # 메뉴 (구분선 제거)
 # =========================
 
-menu = st.sidebar.radio(
-    "메뉴 선택",
+st.sidebar.markdown("## 📚 강의실")
+menu1 = st.sidebar.radio(
+    "",
     [
         "강의실 사용 신청",
         "강의실 전체 예약 현황",
         "강의실 예약 수정 / 삭제",
+    ]
+)
+
+st.sidebar.markdown("---")
+
+st.sidebar.markdown("## 🏢 컨퍼런스실")
+menu2 = st.sidebar.radio(
+    "",
+    [
         "컨퍼런스실 사용 신청",
         "컨퍼런스실 전체 예약 현황",
         "컨퍼런스실 예약 수정 / 삭제",
