@@ -1,3 +1,3 @@
-conference_reservation/
-    app.py
-    reservations.csv
+streamlit
+pandas
+streamlit-calendar
